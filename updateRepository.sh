@@ -39,7 +39,7 @@ if [ "$(ls -A $INDEX_DIR)" ] ; then
 	echo "======> Updating index.yaml"
 	cr index -i $WORKING_DIR/index.yaml -p $INDEX_DIR
 	mv $INDEX_DIR/*.tgz $DEPLOY_DIR
-	sed -i -e "s/Derniere mise a jour//d" $WORKING_DIR/README.md
+	sed -i -e "/Derniere mise a jour//d" $WORKING_DIR/README.md
 	echo "Derniere mise a jour $(date)" >> $WORKING_DIR/README.md
 else
 	echo "Nothing to update"
