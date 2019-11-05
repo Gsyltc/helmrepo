@@ -9,7 +9,6 @@ INDEX_DIR=$WORKING_DIR/.toindex
 
 # Updatye local repositorie
 cd $WORKING_DIR
-git pull
  
 mkdir -p $TMP_DIR
 mkdir -p $INDEX_DIR
@@ -30,6 +29,7 @@ do
            echo "Moving file"
            mv $currentFile $WORKING_DIR/.toindex
            echo "\033[35;1m [INFO] $currentFile updated\033[0;1m"
+           echo "Mise a jour : $currentFile" >> $WORKING_DIR/README.md
        fi
    done
 done
@@ -47,4 +47,5 @@ fi
 git add .
 git commit -a -m "Updating repository"
 git push -u origin gh-pages
+git pull
 helm repo update
