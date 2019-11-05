@@ -29,7 +29,6 @@ do
            echo "Moving file"
            mv $currentFile $WORKING_DIR/.toindex
            echo "\033[35;1m [INFO] $currentFile updated\033[0;1m"
-           echo "Mise a jour : $currentFile" >> $WORKING_DIR/README.md
        fi
    done
 done
@@ -41,7 +40,7 @@ if [ "$(ls -A $INDEX_DIR)" ] ; then
 	cr index -i $WORKING_DIR/index.yaml -p $INDEX_DIR
 	mv $INDEX_DIR/*.tgz $DEPLOY_DIR
 	sed -i -e "s/Derniere mise a jour//g"
-	echo "Derniere mise a jour : $(date)"
+	echo "Derniere mise a jour : $(date)" >> $WORKING_DIR/README.md
 else
 	echo "Nothing to update"
 fi
