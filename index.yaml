@@ -3,6 +3,15 @@ entries:
   cassivet:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2019-11-05T16:36:50.444885-05:00"
+    description: A Helm chart for Kubernetes
+    digest: f4dd28baf87855bae11f499b9e3a3f490a3b6ee7bc4b9a7c1e7a97ff765ef847
+    name: cassivet
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/cassivet-1.1.0/cassivet-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2019-11-05T16:27:45.1899783-05:00"
     description: A Helm chart for Kubernetes
     digest: 06fc4a11b2faff93f2c9c1a97757d1a5886d346b55751189dd2a7dddb7e1ef34
