@@ -58,6 +58,15 @@ entries:
   iptv:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2019-11-05T16:02:37.7570858-05:00"
+    description: A Helm chart for Kubernetes
+    digest: b4c48f15f61526809d60d08b79f804d8c57873629d23e38341adf0721cd0038c
+    name: iptv
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/iptv-1.0.15/iptv-1.0.15.tgz
+    version: 1.0.15
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2019-11-05T15:57:55.0703936-05:00"
     description: A Helm chart for Kubernetes
     digest: a5d2c2dca96068a3698d452d22e700f59b28858cc0b271c865c151486b8152a0
