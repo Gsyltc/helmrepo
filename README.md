@@ -1,2 +1,3 @@
-# helmrepo
-My personnal helm repo
+# Gsyltc's Helm Repository
+
+It-s my personnal helm repository for Jeedom and others
