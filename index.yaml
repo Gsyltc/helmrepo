@@ -3,6 +3,15 @@ entries:
   cassivet:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2019-11-05T15:08:01.3393699-05:00"
+    description: A Helm chart for Kubernetes
+    digest: cae81d30f4887b390241bb8da0145d72ebe501c3590d9b3b9201b4530d5eaa58
+    name: cassivet
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/cassivet-0.1.2/cassivet-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2019-11-05T14:59:05.1764827-05:00"
     description: A Helm chart for Kubernetes
     digest: 352fbd90f217f99d33d1457ef26dc410fb0f0f3e3bfc8e6dfce233b9546e0d5c
@@ -11,6 +20,15 @@ entries:
     - https://github.com/Gsyltc/helmrepo/releases/download/cassivet-0.1.1/cassivet-0.1.1.tgz
     version: 0.1.1
   iptv:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-05T15:08:01.6360081-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 9a8434b13a6969af2052439d91f96416af5250f48f564f88c2a91112fbc2673a
+    name: iptv
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/iptv-1.0.9/iptv-1.0.9.tgz
+    version: 1.0.9
   - apiVersion: v1
     appVersion: "1.0"
     created: "2019-11-05T15:00:52.0778115-05:00"
