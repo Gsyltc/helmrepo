@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  iptv:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-05T11:28:00.8707571-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 866ebba94c387b0e39c8493f390ec5d6c432d99e4ae3b77115227b560d9910ba
+    name: iptv
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/iptv-1.0.1/iptv-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-05T11:21:52.5050445-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 6d6a6e83098b46055023edc8ca4be99453f480dcd80526ed782b764a9be929cc
+    name: iptv
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/iptv-1.0.0/iptv-1.0.0.tgz
+    version: 1.0.0
+  supervision:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-05T11:21:52.7808966-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 2c28eb4e6a155ea0a782a03252182d4d83c1b4cd01e5bcbe4f1f08118e1a7400
+    name: supervision
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/supervision-1.1.0/supervision-1.1.0.tgz
+    version: 1.1.0
+generated: "2019-11-05T11:21:51.6198487-05:00"
