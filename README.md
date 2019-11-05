@@ -5,4 +5,4 @@ It-s my personnal helm repository for Jeedom and others
 Version :
 
 - Iptv :
-- Supervision :
+- Supervision : 1
