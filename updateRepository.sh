@@ -44,7 +44,7 @@ else
 	echo "Nothing to update"
 fi
 
-git add -A .
+git add .
 git commit -a -m "Updating repository"
-git push origin gh-pages
+git push -u origin gh-pages
 helm repo update
