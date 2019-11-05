@@ -35,11 +35,13 @@ do
 done
 
 if [ "$(ls -A $INDEX_DIR)" ] ; then
-	echo "CR Upload"
+    echo "CR Upload"
 	cr upload -p $WORKING_DIR/.toindex
 	echo "======> Updating index.yaml"
 	cr index -i $WORKING_DIR/index.yaml -p $INDEX_DIR
 	mv $INDEX_DIR/*.tgz $DEPLOY_DIR
+	sed -i -e "s/Derniere mise a jour//g"
+	echo "Derniere mise a jour : $(date)"
 else
 	echo "Nothing to update"
 fi
