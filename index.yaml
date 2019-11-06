@@ -245,6 +245,16 @@ entries:
     urls:
     - https://github.com/Gsyltc/helmrepo/releases/download/iptv-1.0.1/iptv-1.0.1.tgz
     version: 1.0.1
+  jeedom:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-06T15:31:36.6407583-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 281011deb3a54c214868d99223d20fbc85f867262b2275d0267c21cfd3222fae
+    name: jeedom
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/jeedom-0.1.0/jeedom-0.1.0.tgz
+    version: 0.1.0
   supervision:
   - apiVersion: v1
     appVersion: "1.0"
