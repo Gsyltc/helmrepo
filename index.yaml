@@ -345,6 +345,16 @@ entries:
     urls:
     - https://github.com/Gsyltc/helmrepo/releases/download/jeedom-0.1.0/jeedom-0.1.0.tgz
     version: 0.1.0
+  kali:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-07T15:04:26.2086241-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 365298ee1a4f5734517ce987f059a4ae5fe967dbdbe0cd500d5b367066a26a77
+    name: kali
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/kali-0.1.0/kali-0.1.0.tgz
+    version: 0.1.0
   supervision:
   - apiVersion: v1
     appVersion: "1.0"
