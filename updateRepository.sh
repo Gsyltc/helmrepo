@@ -29,24 +29,25 @@ do
            echo "Moving file"
            mv $currentFile $WORKING_DIR/.toindex
            echo "\033[35;1m [INFO] $currentFile updated\033[0;1m"
+           
+           echo "CR Upload"
+		   cr upload -p $WORKING_DIR/.toindex
+		   
+		   echo "======> Updating index.yaml"
+		   cr index -i $WORKING_DIR/index.yaml -p $INDEX_DIR
+		   
+		   mv $INDEX_DIR/*.tgz $DEPLOY_DIR
+		   
+		   sed -i -e "/Derniere mise a jour/d" $WORKING_DIR/README.md
+		   echo "Derniere mise a jour $(date)" >> $WORKING_DIR/README.md
+		   
+		   git add .
+		   git commit -a -m "Updating repository with $currentFile"
+		   git push -u origin gh-pages
+	       git pull
+	       
        fi
    done
 done
 
-if [ "$(ls -A $INDEX_DIR)" ] ; then
-    echo "CR Upload"
-	cr upload -p $WORKING_DIR/.toindex
-	echo "======> Updating index.yaml"
-	cr index -i $WORKING_DIR/index.yaml -p $INDEX_DIR
-	mv $INDEX_DIR/*.tgz $DEPLOY_DIR
-	sed -i -e "/Derniere mise a jour/d" $WORKING_DIR/README.md
-	echo "Derniere mise a jour $(date)" >> $WORKING_DIR/README.md
-else
-	echo "Nothing to update"
-fi
-
-git add .
-git commit -a -m "Updating repository"
-git push -u origin gh-pages
-git pull
 helm repo update
