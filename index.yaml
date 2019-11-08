@@ -438,6 +438,15 @@ entries:
   jeedom:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2019-11-08T16:15:23.9013379-05:00"
+    description: A Helm chart for Kubernetes
+    digest: d08bb43bc6549bb1a62b825a164a54bd52e63cb929151b8f5152e8ca85638c55
+    name: jeedom
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/jeedom-1.2.4/jeedom-1.2.4.tgz
+    version: 1.2.4
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2019-11-08T15:41:53.4569486-05:00"
     description: A Helm chart for Kubernetes
     digest: ad229651c0c3dc7f5008ab813e6aa4cba95b48b79cb74f5fb8891835d2b88650
