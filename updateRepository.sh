@@ -27,7 +27,7 @@ do
            
            rm $currentFile
        else
-           rm $DEPLOY_DIR/$(echo $currentFile | cut -f1 -d\"-\")*
+           echo "rm $DEPLOY_DIR/$(echo $currentFile | cut -f1 -d\"-\")*"
            
            echo "Moving file"
            mv $currentFile $WORKING_DIR/.toindex
