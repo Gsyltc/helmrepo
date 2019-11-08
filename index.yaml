@@ -136,6 +136,16 @@ entries:
     urls:
     - https://github.com/Gsyltc/helmrepo/releases/download/cassivet-0.1.1/cassivet-0.1.1.tgz
     version: 0.1.1
+  database:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-08T15:12:05.0841204-05:00"
+    description: A Helm chart for Kubernetes
+    digest: b9ec88f05fe0d84f93d74451837363f08f9fdf1ecbbf9f063ed7d7f003096db2
+    name: database
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/database-0.1.0/database-0.1.0.tgz
+    version: 0.1.0
   iptv:
   - apiVersion: v1
     appVersion: "1.0"
