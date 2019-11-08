@@ -24,10 +24,11 @@ do
    	   echo "Current file : $currentFile"
        if [ -f $DEPLOY_DIR/$currentFile ] ; then
            echo "\033[33;1m [WARNING] $currentFile already exist\033[0;1m"
-           
            rm $currentFile
        else
-           echo "rm $DEPLOY_DIR/$(echo $currentFile | cut -f1 -d\"-\")*"
+       
+       	   toDelete=$(echo $currentFile | cut -f1 -d'-')
+           rm $DEPLOY_DIR/$toDelete*
            
            echo "Moving file"
            mv $currentFile $WORKING_DIR/.toindex
