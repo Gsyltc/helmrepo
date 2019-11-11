@@ -2,4 +2,4 @@
 
 It-s my personnal helm repository for Jeedom and others
 
-Derniere mise a jour Fri Nov  8 16:34:16 STD 2019
+Derniere mise a jour Mon Nov 11 15:16:40 STD 2019
