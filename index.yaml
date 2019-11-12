@@ -184,6 +184,15 @@ entries:
   database:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2019-11-12T12:59:39.5979525-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 89ab5dda19a88d81df32b096fd447bb779696b851b60d18d1a1e69abc9457d7d
+    name: database
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/database-1.0.2-beta2/database-1.0.2-beta2.tgz
+    version: 1.0.2-beta2
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2019-11-12T12:54:33.8012531-05:00"
     description: A Helm chart for Kubernetes
     digest: e8512d936507d2344a72b42f88e502d1106a8810f5d2ffd5a2bce1238fd47040
