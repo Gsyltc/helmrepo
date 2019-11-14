@@ -898,6 +898,15 @@ entries:
   kali:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2019-11-14T21:24:22.13553866Z"
+    description: A Helm chart for Kubernetes
+    digest: 7bc236ea07366a66e0685d4e3265f83462ab3df3d85f73c4b450be5222d68ea7
+    name: kali
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/kali-0.2.0-beta/kali-0.2.0-beta.tgz
+    version: 0.2.0-beta
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2019-11-08T09:54:01.0084814-05:00"
     description: A Helm chart for Kubernetes
     digest: 84a98d73a428e0737174180ab74d3ee250477a95b0af8439a1149c0e1e57ef2d
