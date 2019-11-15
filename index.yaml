@@ -971,6 +971,15 @@ entries:
   supervision:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2019-11-15T16:01:38.214430713Z"
+    description: A Helm chart for Kubernetes
+    digest: 52acc4839d2d56a455c743462152923e3577c4d415e9c9224c0ce7f0090c6a27
+    name: supervision
+    urls:
+    - https://github.com/Gsyltc/helmrepo/releases/download/supervision-2.0.1-beta/supervision-2.0.1-beta.tgz
+    version: 2.0.1-beta
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2019-11-15T14:22:50.9344606Z"
     description: A Helm chart for Kubernetes
     digest: 75d0bbf7682ab9e2f8d4107cdd0b7719cc44fecb1cfc780b08e4544613889e26
